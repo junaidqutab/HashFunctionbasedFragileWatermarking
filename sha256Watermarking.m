@@ -155,8 +155,7 @@ guidata(hObject,handles);
 %% Ignore this function, not used now
 % --- Executes on button press in groundtruth.
 image = imread([path filename]);
-for i=1:32:r 
-for j=1:32:c
+
 %% Testing the watermark
 % --- Executes on button press in Verify.
 function Verify_Callback(hObject, eventdata, handles)
